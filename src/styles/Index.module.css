@@ -1,0 +1,10 @@
+.main{
+    width: 100%;
+    position: relative;
+    background-image: radial-gradient(circle at 14.64% -11.24%, #8f8520 0, #7e8120 10%, #6b7a20 20%, #587120 30%, #456620 40%, #32591f 50%, #204c1d 60%, #0f411b 70%, #00371a 80%, #002f19 90%, #002818 100%);
+    height:auto ;
+}
+.conteudo{
+    height: 87%;
+    padding-top: 30.5vh;
+}

@@ -1,0 +1,17 @@
+.content{
+   
+    height: 100vh;
+    padding: 20px;
+   
+}
+.cartao{
+    width: 18rem;
+     height: 25rem; 
+     margin: 14px;
+     box-shadow: 1px 1px 11px -2px rgb(0 0 0 / 60%);
+     transition: all ease 0.1s;
+}
+.cartao:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 1px 11px -2px rgb(0 0 0 / 20%);
+}
