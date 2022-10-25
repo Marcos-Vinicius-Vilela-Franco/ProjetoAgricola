@@ -26,7 +26,7 @@ export default function Carrosel() {
                                     < Image className="d-block w-100 " src={item.link} alt={item.name} width={1100} height={600} />
                                     <Carousel.Caption>
                                         <h2 className='font-weight-bold'>{item.label}</h2>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                        <p></p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                             )
