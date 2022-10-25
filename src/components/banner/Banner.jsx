@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Banner(props) {
 
     return (   
-            <div className={styles.content + ` container  `}>
+            <div className={styles.content }>
                 <div className={`row featurette p-1 w-75`}>
                     <div className="col-md-7 p-2">
                         <h2 className="featurette-heading"> Agrícola <span className="text-muted">Comércio e Representação de Produtos Agropecuários </span></h2>

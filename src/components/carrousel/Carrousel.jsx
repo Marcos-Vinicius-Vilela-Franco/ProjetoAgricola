@@ -16,7 +16,7 @@ export default function Carrosel() {
     return (
         <>
             <div className="display-4 p-2 border-bottom mb-5">Imagens</div>
-            <div className='container bg-light  rounded d-flex align-items-center justify-content-center'>
+            <div className='bg-light  rounded d-flex align-items-center justify-content-center'>
                 <div className='mb-5 mt-3'>
 
                     <Carousel>

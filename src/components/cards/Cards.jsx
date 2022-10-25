@@ -5,7 +5,7 @@ import styles from './Card.module.css'
 
 export default function Cards() {
     return (
-        <div className={`container bg-light d-flex h-auto flex-column rounded ` + styles.content}>
+        <div className={` bg-light d-flex h-auto flex-column rounded ` + styles.content}>
             <div className="display-4 p-2 border-bottom mb-3">Marcas</div>
             <div className="d-flex flex-wrap  justify-content-center ">
                 <div className={`card ` + styles.cartao}>

@@ -2,7 +2,7 @@ import styles from './Servicos.module.css'
 import Image from 'next/image';
 export default function Servicos(props) {
     return ( 
-        <div className="container   d-flex flex-column ">
+        <div className="  d-flex flex-column ">
            {props.header ? <div className="display-4 p-2 border-bottom ">Serviços</div> :''}
             <div className={styles.content + ` `}>
 
