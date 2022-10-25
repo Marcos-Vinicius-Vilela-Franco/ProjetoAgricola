@@ -1,13 +1,17 @@
 import Image from 'next/image'
 import Carousel from 'react-bootstrap/Carousel';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+const imgs = [{ id:1, name: 'Imagem 1', link:"/imgs/img1.jpg",  label:"Agricultura de precisão"},
+{ id:2, name: 'Imagem 2', link:"/imgs/img2.jpeg", label:"Produtividade"},
+{ id:3, name: 'Imagem 3', link:"/imgs/img3.jpg",label:"Tecnologia" }
+];
 export default function Carrosel() {
-    const [data, setData] = useState([]);
+    const [data, setData] = useState(imgs);
 
-    useEffect(() => {
-        fetch('http://localhost:3000/api/hello').then((resp) =>
-            resp.json()).then(setData)
-    }, [])
+    // useEffect(() => {
+    //     fetch('http://localhost:3000/api/hello').then((resp) =>
+    //         resp.json()).then(setData)
+    // }, [])
     if (!data || !data.length) return null;
     return (
         <>

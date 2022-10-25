@@ -13,7 +13,7 @@ export default function Home() {
       <NavBar />
       <Abertura />
       <div className={styles.conteudo + ` container bg-light`}>
-        <Banner src="/imgs/img3.JPG" />
+        <Banner src="/imgs/img3.jpg" />
         <Servicos header={true} />
         <Carrousel />
         <Cards />
