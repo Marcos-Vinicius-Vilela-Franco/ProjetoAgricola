@@ -1,13 +1,13 @@
 import Footer from "../components/footer/Footer";
 import Banner2 from '../components/banner2/Banner2';
-import Navbar from "../components/navbar/Navbar";
+import NavBar from "../components/navbar/NavBar";
 import styles from '../styles/Empresa.module.css'
 import Image from "next/image";
 import Mapa from '../components/mapa/Mapa'
 export default function Contato() {
     return (
         <div className={styles.main} >
-            <Navbar />
+            <NavBar />
             <Banner2 texto="Contato" />
             <div className="bg-light container pb-5 " style={{ "padding-top": "300px"}}>
                 <div className={styles.content + ` pt-5 pb-5`}>
