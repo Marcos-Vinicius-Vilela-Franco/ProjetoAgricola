@@ -10,7 +10,7 @@ export default function Empresa() {
             <NavBar />
             <Banner2 texto="Empresa"/>
             <div className="bg-light container pb-5 " style={{"padding-top":"260px"}}>
-                <Banner src="/imgs/capturar.jpg" />
+                <Banner src="/imgs/capturar.JPG" />
             </div>
             <Footer />
         </div>
