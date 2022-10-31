@@ -5,7 +5,7 @@ export default function Mapa() {
     
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: process.env.NEXT_API_GOOGLE
+        googleMapsApiKey: process.env.NEXT_PUBLIC_API_GOOGLE
     })
     
     const position = {
